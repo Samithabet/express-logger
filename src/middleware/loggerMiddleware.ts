@@ -1,6 +1,6 @@
 // middlewares/loggerMiddleware.ts
 import morgan from 'morgan';
-import logger from '../../conf/Logger';
+import logger from '../conf/Logger';
 
 const morganMiddleware = morgan(':method :url :status :response-time ms', {
   stream: {

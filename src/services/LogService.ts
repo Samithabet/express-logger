@@ -1,4 +1,4 @@
-import logger from '../../conf/Logger';
+import logger from '../conf/Logger';
 
 class LogService {
     static logMessage(message: string): void {
