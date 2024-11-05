@@ -17,7 +17,7 @@
 // export default logger;
 import { createLogger, format, transports } from 'winston';
 import AWS from 'aws-sdk';
-
+require('dotenv').config()
 const { combine, timestamp, json, colorize } = format;
 AWS.config.update({
   region: process.env.REGION,
